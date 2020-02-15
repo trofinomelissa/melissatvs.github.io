@@ -1,0 +1,94 @@
+html {
+	font-family: 'Heebo', sans-serif;
+}
+
+header {
+	padding-top: 40px;
+}
+
+.nome-pagina {
+	font-weight: bold;
+	font-size: 40px;
+	text-align: center;
+}
+
+.redes-sociais {
+	position: relative;
+	width: 220px;
+	margin: 30px auto;
+}
+
+.rede-social {
+	display: inline-block;
+	margin: 10px;
+	transform: scale(0.8);
+	
+}
+
+.rede-social:hover {
+	transform: scale(1);
+}
+
+.curriculo {
+	background: lemonchiffon;
+	margin: 40px;
+	border-radius: 5px;
+	padding: 40px 40px 25px;
+}
+
+.caixa-1 a {
+	text-decoration: none;
+	color: black;
+	transition: 0.5s color;
+}
+
+.caixa-1 {
+	background: white;
+	margin: 0 0 15px 0;	
+	padding: 10px;
+	border-radius: 5px;
+	transition: 1.5s box-shadow;
+}
+
+.caixa-1:hover {
+	box-shadow: 0px 0px 10px darkorange;
+}
+
+.caixa-1 .titulo {
+	font-weight: bold;
+	font-size: 30px;	
+}
+
+.caixa-1 a:hover {
+	color: darkorange;
+}
+
+.caixa-1 li, p {	
+	font-weight: lighter;
+}
+
+.caixa-2 {
+	background: white;
+	padding: 20px 0 0 20px;	
+}
+
+.caixa-2 .titulo {
+	font-size: 22px;
+	margin-bottom: 5px;
+}
+
+.caixa-2 li, p {	
+    padding: 0 0 5px 0;	
+}
+
+.caixa-3 {
+	background: white;
+	padding: 5px 0 0 20px;
+}
+
+.caixa-3 .titulo {
+
+	font-weight: normal;
+	font-size: 16px;
+	
+}
